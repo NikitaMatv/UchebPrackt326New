@@ -1,0 +1,19 @@
+﻿<Application x:Class="UchebPrackt326.App"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:local="clr-namespace:UchebPrackt326"
+             StartupUri="MainWindow.xaml">
+    <Application.Resources>
+        <Style TargetType="TextBlock">
+            <Setter Property="FontSize" Value="18"></Setter>
+        </Style>
+        <Style TargetType="TextBox">
+            <Setter Property="FontSize" Value="18"></Setter>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="#FFE7FABF"></Setter>
+            <Setter Property="BorderBrush" Value="#FF04A0FF"></Setter>
+            <Setter Property="BorderThickness" Value="2"></Setter>
+        </Style>
+    </Application.Resources>
+</Application>

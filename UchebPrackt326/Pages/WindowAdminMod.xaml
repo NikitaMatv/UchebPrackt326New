@@ -1,0 +1,16 @@
+﻿<Window x:Class="UchebPrackt326.Pages.WindowAdminMod"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:UchebPrackt326.Pages"
+        mc:Ignorable="d"
+        Title="AdminMod" Height="150" Width="250" WindowStartupLocation="CenterScreen" WindowStyle="None">
+    <Grid>
+        <StackPanel HorizontalAlignment="Center" VerticalAlignment="Center">
+            <TextBox x:Name="TbCode" Width="100" Height="50"></TextBox>
+            <Button Margin="0 10 0 0" Click="Button_Click" Width="30" Height="30">+</Button>
+        </StackPanel>
+        
+    </Grid>
+</Window>
